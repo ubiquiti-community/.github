@@ -1,4 +1,4 @@
-# 🌐 Ubiquiti Community
+# Ubiquiti Community
 
 <div align="center">
 
@@ -6,37 +6,35 @@
 [![GitHub followers](https://img.shields.io/github/followers/ubiquiti-community?style=for-the-badge&logo=github)](https://github.com/ubiquiti-community)
 [![GitHub stars](https://img.shields.io/github/stars/ubiquiti-community?style=for-the-badge&logo=github)](https://github.com/ubiquiti-community)
 
-**🚀 Extending the UniFi ecosystem through community-driven innovation**
-
-*Bringing extensibility and interoperability to the UniFi platform*
+**Extending the UniFi ecosystem through open-source collaboration**
 
 </div>
 
 ---
 
-## 🎯 Our Mission
+## Mission
 
-We are a passionate community of developers and network enthusiasts dedicated to expanding the capabilities of Ubiquiti's UniFi platform. Our projects focus on:
+An open community of developers and network engineers focused on extending the capabilities of Ubiquiti's UniFi platform. Our projects center on:
 
-- 🔧 **Extensibility** - Building tools that extend UniFi functionality
-- 🌉 **Interoperability** - Creating bridges between UniFi and other platforms
-- 🛠️ **Developer Experience** - Providing SDKs, APIs, and tools for developers
-- 🤝 **Community Collaboration** - Open-source solutions built by the community
+- **Extensibility** — Tools that expand UniFi functionality beyond stock capabilities
+- **Interoperability** — Integrations between UniFi and third-party platforms
+- **Developer Experience** — SDKs, APIs, and libraries for programmatic control
+- **Open Collaboration** — Community-maintained, open-source solutions
 
 ---
 
-## 📦 Featured Repositories
+## Featured Repositories
 
-### 🏗️ Infrastructure & Automation
+### Infrastructure & Automation
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🔶 [terraform-provider-unifi](https://github.com/ubiquiti-community/terraform-provider-unifi)
-**Terraform Provider for UniFi** 📡
+#### [terraform-provider-unifi](https://github.com/ubiquiti-community/terraform-provider-unifi)
+**Terraform Provider for UniFi**
 
-Manage your UniFi infrastructure as code with this comprehensive Terraform provider.
+Manage UniFi infrastructure as code using this Terraform provider.
 
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=flat-square&logo=terraform&logoColor=white)
 ![HCL](https://img.shields.io/badge/HCL-623CE4?style=flat-square&logo=terraform&logoColor=white)
@@ -44,10 +42,10 @@ Manage your UniFi infrastructure as code with this comprehensive Terraform provi
 </td>
 <td width="50%">
 
-#### 🌐 [networking-unifi](https://github.com/ubiquiti-community/networking-unifi)
+#### [networking-unifi](https://github.com/ubiquiti-community/networking-unifi)
 **OpenStack Neutron Driver**
 
-Bridge between UniFi controllers and OpenStack Neutron for cloud networking integration.
+Integrates UniFi controllers with OpenStack Neutron for cloud networking.
 
 ![OpenStack](https://img.shields.io/badge/OpenStack-%23f01742.svg?style=flat-square&logo=openstack&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
@@ -56,16 +54,16 @@ Bridge between UniFi controllers and OpenStack Neutron for cloud networking inte
 </tr>
 </table>
 
-### 🔌 DNS & Networking
+### DNS & Networking
 
 <table>
 <tr>
 <td width="50%">
 
-#### 📡 [external-dns-unifi-webhook](https://github.com/ubiquiti-community/external-dns-unifi-webhook)
+#### [external-dns-unifi-webhook](https://github.com/ubiquiti-community/external-dns-unifi-webhook)
 **External-DNS UniFi Webhook**
 
-Manage UniFi DNS records through External-DNS for Kubernetes environments.
+Manage UniFi DNS records through External-DNS in Kubernetes environments.
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat-square&logo=kubernetes&logoColor=white)
@@ -73,7 +71,7 @@ Manage UniFi DNS records through External-DNS for Kubernetes environments.
 </td>
 <td width="50%">
 
-#### 🖥️ [external-dns-dnsmasq-webhook](https://github.com/ubiquiti-community/external-dns-dnsmasq-webhook)
+#### [external-dns-dnsmasq-webhook](https://github.com/ubiquiti-community/external-dns-dnsmasq-webhook)
 **External-DNS Dnsmasq Webhook**
 
 Webhook provider for managing Dnsmasq DNS records via External-DNS.
@@ -85,16 +83,16 @@ Webhook provider for managing Dnsmasq DNS records via External-DNS.
 </tr>
 </table>
 
-### 💻 SDKs & Libraries
+### SDKs & Libraries
 
 <table>
 <tr>
 <td width="50%">
 
-#### 🐹 [go-unifi](https://github.com/ubiquiti-community/go-unifi)
+#### [go-unifi](https://github.com/ubiquiti-community/go-unifi)
 **UniFi Controller SDK for Go**
 
-Comprehensive Go SDK for interacting with UniFi Controller API.
+Go SDK for interacting with the UniFi Controller API.
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
 ![API](https://img.shields.io/badge/API-4CAF50?style=flat-square&logo=swagger&logoColor=white)
@@ -102,10 +100,10 @@ Comprehensive Go SDK for interacting with UniFi Controller API.
 </td>
 <td width="50%">
 
-#### 🐍 [aiohttp-unifi](https://github.com/ubiquiti-community/aiohttp-unifi)
+#### [aiohttp-unifi](https://github.com/ubiquiti-community/aiohttp-unifi)
 **Async Python UniFi Library**
 
-Asynchronous Python library for communicating with UniFi Controller.
+Asynchronous Python library for the UniFi Controller API.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![Asyncio](https://img.shields.io/badge/asyncio-FF6B6B?style=flat-square&logo=python&logoColor=white)
@@ -114,16 +112,16 @@ Asynchronous Python library for communicating with UniFi Controller.
 </tr>
 </table>
 
-### 🔧 Utilities & Tools
+### Utilities & Tools
 
 <table>
 <tr>
 <td width="50%">
 
-#### ⚡ [unifi-rpc](https://github.com/ubiquiti-community/unifi-rpc)
+#### [unifi-rpc](https://github.com/ubiquiti-community/unifi-rpc)
 **UniFi PoE Power Control API**
 
-HTTP API for controlling UniFi PoE power, compatible with BMC RPC API used by Tinkerbell.
+HTTP API for controlling UniFi PoE power, compatible with the BMC RPC API used by Tinkerbell.
 
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white)
 ![API](https://img.shields.io/badge/RPC-FF9800?style=flat-square&logo=json&logoColor=white)
@@ -131,7 +129,7 @@ HTTP API for controlling UniFi PoE power, compatible with BMC RPC API used by Ti
 </td>
 <td width="50%">
 
-#### 📋 [unifi-api](https://github.com/ubiquiti-community/unifi-api)
+#### [unifi-api](https://github.com/ubiquiti-community/unifi-api)
 **OpenAPI Definition**
 
 OpenAPI specification for the UniFi Controller API.
@@ -143,16 +141,16 @@ OpenAPI specification for the UniFi Controller API.
 </tr>
 </table>
 
-### 🏢 Enterprise & Orchestration
+### Enterprise & Orchestration
 
 <table>
 <tr>
 <td width="100%">
 
-#### 🎭 [nomad-driver-nspawn](https://github.com/ubiquiti-community/nomad-driver-nspawn)
+#### [nomad-driver-nspawn](https://github.com/ubiquiti-community/nomad-driver-nspawn)
 **Nomad systemd-nspawn Driver**
 
-A Nomad task driver for systemd-nspawn containers, enabling lightweight container orchestration.
+A Nomad task driver for systemd-nspawn containers providing lightweight container orchestration.
 
 ![Nomad](https://img.shields.io/badge/Nomad-00CA8E?style=flat-square&logo=nomad&logoColor=white)
 ![systemd](https://img.shields.io/badge/systemd-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -163,29 +161,19 @@ A Nomad task driver for systemd-nspawn containers, enabling lightweight containe
 
 ---
 
-## 🤝 Get Involved
+## Contributing
 
-We welcome contributions from the community! Here's how you can get involved:
+Contributions are welcome. Here are the primary ways to get involved:
 
-- 🐛 **Report Issues** - Found a bug? Let us know!
-- 💡 **Feature Requests** - Have an idea? We'd love to hear it!
-- 🔧 **Contribute Code** - Submit pull requests to improve our projects
-- 📖 **Documentation** - Help us improve our documentation
-- 💬 **Community Support** - Help other users in discussions
-
-## 🌟 Why Choose Ubiquiti Community?
-
-<div align="center">
-
-| 🚀 **Innovation** | 🔧 **Quality** | 🤝 **Community** | 📚 **Documentation** |
-|:---:|:---:|:---:|:---:|
-| Cutting-edge solutions | Production-ready code | Active community support | Comprehensive guides |
-
-</div>
+- **Report Issues** — Open an issue if you encounter a bug or unexpected behavior
+- **Feature Requests** — Suggest improvements or new functionality via issues
+- **Pull Requests** — Submit code changes against any of our repositories
+- **Documentation** — Clarify or expand existing documentation
+- **Community Support** — Participate in discussions to help other users
 
 ---
 
-## 📊 Community Stats
+## Community Stats
 
 <div align="center">
 
@@ -197,11 +185,7 @@ We welcome contributions from the community! Here's how you can get involved:
 
 <div align="center">
 
-**📧 Questions? Ideas? Let's connect!**
-
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ubiquiti-community)
 [![Discussions](https://img.shields.io/badge/Discussions-FCC624?style=for-the-badge&logo=github&logoColor=black)](https://github.com/orgs/ubiquiti-community/discussions)
-
-*Building the future of UniFi extensibility, one commit at a time* ✨
 
 </div>
